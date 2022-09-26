@@ -7,8 +7,6 @@ export default function PriestDraw() {
                     <li>Twister V6</li>
                     <li>Anorexic Sacrifice V6</li>
                     <li>The Coffin V3</li>
-
-
                 </ul> 
             </div>
         </div>
