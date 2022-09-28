@@ -1,0 +1,44 @@
+@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css);
+
+@font-face {
+    font-family: "Fira Code";
+    src: url(https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css);
+  }
+  
+.is-family-code {
+    font-family: "Fira Code";
+}
+
+.is-black {
+    color: black;
+}
+
+.link-color a:hover {
+    color: black;
+}
+
+.link-color a{
+    color: gray;
+}
+
+.is-light {
+    color: gray;
+}
+
+.is-area-container {
+    margin: 1rem auto 0 auto;
+    max-width: 23rem;
+  }
+
+.is-home-container {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.no-margin {
+    margin: 0 0 0 0;
+}
+
+.home-margin {
+    margin: auto auto 1.5rem auto;
+}
+
