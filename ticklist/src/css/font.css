@@ -1,8 +1,8 @@
-@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css);
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap);
 
 @font-face {
     font-family: "Fira Code";
-    src: url(https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css);
+    src: url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap);
   }
   
 .is-family-code {
@@ -11,6 +11,14 @@
 
 .is-black {
     color: black;
+}
+
+.is-gray {
+    color: gray;
+}
+
+.is-light-gray {
+    color: lightgray;
 }
 
 .link-color a:hover {
@@ -25,20 +33,38 @@
     color: gray;
 }
 
+.is-number-link a:hover{
+    color: gray;
+}
+
+.is-number-link a{
+    color: lightgray;
+}
+
 .is-area-container {
-    margin: 1rem auto 0 auto;
+    margin: 3rem auto 0 auto;
     max-width: 23rem;
   }
 
 .is-home-container {
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 3rem 1rem 1rem 1rem;
 }
 
-.no-margin {
-    margin: 0 0 0 0;
+.top-margin {
+    margin: 1.5rem 0 0 0;
 }
 
 .home-margin {
     margin: auto auto 1.5rem auto;
+}
+
+.no-button{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
 

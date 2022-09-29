@@ -1,13 +1,14 @@
 import {Link} from "react-router-dom"
+import Footer from "./Footer"
 
 export default function Home() {
     return(
-        <div className="main" class="has-text-centered is-home-container">
-            <div class="home-margin">
-                <h1 class="is-black is-size-5 is-family-code">Wargen's 2023 Tick List</h1>
+        <div className="main has-text-centered is-home-container">
+            <div className="home-margin">
+                <h1 className="is-black is-size-5 is-family-code">🥳 Wargen's 2023 Tick List 💯</h1>
             </div>
             
-            <div className="areas" class="is-size-6 is-family-code link-color" >
+            <div className="areas is-size-6 is-family-code link-color home-margin" >
                 <Link to="/Standouts">000 Standouts</Link><br/>
                 <Link to="/Kraft">001 Kraft</Link><br/>
                 <Link to="/RedSprings">002 Red Springs</Link><br/>
@@ -23,8 +24,9 @@ export default function Home() {
                 <Link to="/HappyBoulders">012 Happy Boulders</Link><br/>
                 <Link to="/SadBoulders">013 Sad Boulders</Link><br/>
                 <Link to="/WestCluster">014 West Cluster</Link><br/>
-
             </div>
+
+            <Footer/>
         </div>
     );
 }
