@@ -39,11 +39,11 @@ const Area = (props) => {
             <div className="main is-family-code has-text-centered">
 
                 <div className="columns is-mobile">
-                    <div className="column">
+                    <div className="column has-text-left">
                         <Link to="/"><div className="is-size-6 link-color">⏪</div></Link>
                     </div>
                     <div className="column is-two-thirds"><h1 className="is-size-5 is-black has-text-centered">{areaName}</h1></div>
-                    <div className="column has-text-right is-size-6">
+                    <div className="column is-size-6 has-text-right">
                         <button className="no-button" onClick={handleClick}>ℹ️</button>
                     </div>
                 </div>
