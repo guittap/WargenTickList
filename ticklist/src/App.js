@@ -19,7 +19,6 @@ import HappyBoulders from "./assets/happyboulders.txt";
 import SadBoulders from "./assets/sadboulders.txt";
 import WestCluster from "./assets/westcluster.txt";
 
-
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 export default function App() {
@@ -42,8 +41,6 @@ export default function App() {
         <Route path="/HappyBoulders" element={<Area area={HappyBoulders} areaName="Happy Boulders"/>}/>
         <Route path="/SadBoulders" element={<Area area={SadBoulders} areaName="Sad Boulders"/>}/>
         <Route path="/WestCluster" element={<Area area={WestCluster} areaName="West Cluster"/>}/>
-
-
       </Routes>
     </BrowserRouter>
   );

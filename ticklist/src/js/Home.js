@@ -13,7 +13,7 @@ export default function Home() {
                 <Link to="/Kraft">001 Kraft</Link><br/>
                 <Link to="/RedSprings">002 Red Springs</Link><br/>
                 <Link to="/PriestDraw">003 Priest Draw</Link><br/>
-                <Link to="/MoesValley">004 Moe's Valley</Link><br/>
+                <Link to="/MoesValley">004 Moes Valley</Link><br/>
                 <Link to="/WillowSprings">005 Willow Springs</Link><br/>
                 <Link to="/Buttermilks">006 Buttermilks</Link><br/>
                 <Link to="/SuperMarioLand">007 Super Mario Land</Link><br/>
